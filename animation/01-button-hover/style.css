@@ -18,3 +18,10 @@ button {
   font-size: small;
   text-align: center;
 }
+
+button:hover{
+  font-size: large;
+  text-align: center;
+  transition-property: font-size;
+  transition-duration: 2.0s;
+}
